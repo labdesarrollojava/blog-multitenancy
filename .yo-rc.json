@@ -1,0 +1,65 @@
+{
+  "generator-jhipster-multitenancy": {
+    "promptValues": {
+      "packageName": "com.jhipster.demo.blog"
+    },
+    "tenantChangelogDate": "20191112141159",
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "blog",
+    "packageName": "com.jhipster.demo.blog",
+    "packageFolder": "com/jhipster/demo/blog",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjkzMjZjZDVjMjVmMzc0MGZlM2YyMWU2ZTFkZmY5M2FhOTc4NGEzZjczYmIyOGZjY2I5NGFjZjE1M2I3YjE5ZmY0OTAwMjQ3ZDYwNThkZWY5NzVkZjVkNWE1Y2E0NDFhNmIyNGZhZDNlMWRmMjBiNmUyYzExZDU5NzQ1ZjNmMjc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "tenantName": "Company"
+  },
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "blog",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-multitenancy",
+        "version": "2.1.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-multitenancy",
+        "version": "2.1.0"
+      }
+    ]
+  }
+}
