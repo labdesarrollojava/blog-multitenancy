@@ -29,7 +29,10 @@
     "clientFramework": "angularX",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "tenantName": "Company"
+    "tenantName": "Company",
+    "tenantAwareEntities": [
+      "Blog"
+    ]
   },
   "generator-jhipster": {
     "promptValues": {
